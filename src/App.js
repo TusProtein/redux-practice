@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import './App.css';
-import PostForm from './PostForm';
-import PostList from './PostList';
-
-function App() {
-    return (
-        <div className='App'>
-            <PostForm />
-            <PostList />
-=======
 import { Typography, Divider } from 'antd';
 import './App.css';
 import TodoList from './components/TodoList';
@@ -35,7 +24,6 @@ function App() {
             <Filters />
             <Divider />
             <TodoList />
->>>>>>> 0cb179dddee2908fb5251e548beeb38b4fe182ec
         </div>
     );
 }
